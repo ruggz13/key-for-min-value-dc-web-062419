@@ -11,6 +11,8 @@ def key_for_min_value(name_hash)
       index += 1
       key_for_min_value[value]
       lowest
+    else
+      nil
     end
   end
 end
